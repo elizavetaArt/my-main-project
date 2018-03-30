@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {CabinetComponent} from './cabinet.component';
+import {CabinetSystemComponent} from './cabinet-system.component';
 import {CommonModule} from '@angular/common';
 
 @NgModule({
@@ -7,7 +7,7 @@ import {CommonModule} from '@angular/common';
     CommonModule
   ],
   declarations: [
-    CabinetComponent
+    CabinetSystemComponent
   ],
   providers: []
 })

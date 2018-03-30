@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Time} from '../shared/models/time.model';
-import {TimeService} from '../shared/services/time.service';
+import {Time} from '../../shared/models/time.model';
+import {TimeService} from '../../shared/services/time.service';
 import {Observable} from 'rxjs/Observable';
 import {Subscription} from 'rxjs/Subscription';
 

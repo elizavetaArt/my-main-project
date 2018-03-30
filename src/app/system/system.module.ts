@@ -18,16 +18,16 @@ import { NanopokrytiyeComponent } from './services/nanopokrytiye/nanopokrytiye.c
 import { PolirovkaComponent } from './services/polirovka/polirovka.component';
 import { ShinomontazhComponent } from './services/shinomontazh/shinomontazh.component';
 import { TableMoikaComponent } from './services/moika/table-moika/table-moika.component';
-import {InfoMoikaService} from './shared/services/InfoMoika.service';
+import {InfoMoikaService} from '../shared/services/InfoMoika.service';
 import { FormPolirovkaComponent } from './services/polirovka/form-polirovka/form-polirovka.component';
 import { FormCleanningComponent } from './services/dry-cleanning/form-cleanning/form-cleanning.component';
 import { FormNanopokrytiyeComponent } from './services/nanopokrytiye/form-nanopokrytiye/form-nanopokrytiye.component';
 import { FormAdditionallyComponent } from './services/additionally/form-additionally/form-additionally.component';
 import { EditReviewComponent } from './reviews/edit-review/edit-review.component';
 import { AddReviewsComponent } from './reviews/add-reviews/add-reviews.component';
-import {ReviewsService} from './shared/services/reviews.service';
-import {TimeService} from './shared/services/time.service';
-import {OrderService} from './shared/services/order.service';
+import {ReviewsService} from '../shared/services/reviews.service';
+import {TimeService} from '../shared/services/time.service';
+import {OrderService} from '../shared/services/order.service';
 
 @NgModule({
   imports: [
@@ -60,4 +60,5 @@ import {OrderService} from './shared/services/order.service';
   ],
   providers: [InfoMoikaService, ReviewsService, TimeService, OrderService]
 })
+
 export class SystemModule {}

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Reviews} from '../../shared/models/reviews.model';
+import {Reviews} from '../../../shared/models/reviews.model';
 
 @Component({
   selector: 'wfm-edit-review',

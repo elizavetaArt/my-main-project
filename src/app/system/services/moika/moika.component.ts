@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {InfoMoika} from '../../shared/models/Info-moika.model';
-import {InfoMoikaService} from '../../shared/services/InfoMoika.service';
+import {InfoMoika} from '../../../shared/models/Info-moika.model';
+import {InfoMoikaService} from '../../../shared/services/InfoMoika.service';
 import {Observable} from 'rxjs/Observable';
 import {Subscription} from 'rxjs/Subscription';
 

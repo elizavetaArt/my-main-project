@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {InfoMoika} from '../../../shared/models/Info-moika.model';
+import {InfoMoika} from '../../../../shared/models/Info-moika.model';
 
 @Component({
   selector: 'wfm-form-cleanning',

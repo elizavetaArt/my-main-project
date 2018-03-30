@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Reviews} from '../shared/models/reviews.model';
-import {ReviewsService} from '../shared/services/reviews.service';
+import {Reviews} from '../../shared/models/reviews.model';
+import {ReviewsService} from '../../shared/services/reviews.service';
 import {Observable} from 'rxjs/Observable';
 
 @Component({

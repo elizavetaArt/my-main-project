@@ -1,7 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {ReviewsService} from '../../shared/services/reviews.service';
+import {ReviewsService} from '../../../shared/services/reviews.service';
 import {NgForm} from '@angular/forms';
-import {Reviews} from '../../shared/models/reviews.model';
+import {Reviews} from '../../../shared/models/reviews.model';
 
 @Component({
   selector: 'wfm-add-reviews',
