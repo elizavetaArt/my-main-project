@@ -1,0 +1,21 @@
+<table class="info-order fon">
+  <tr>
+    <td colspan="1" width="10%"></td>
+    <td colspan="3" width="90%">Стоимость услуг(цены указаны в рублях)</td>
+  </tr>
+  <tr>
+    <td width="55%"><span class="main-span">Наименование услуг</span></td>
+    <td width="15%"><span class="main-span">Легковой</span></td>
+    <td width="15%"><span class="main-span">Минивен, Джип</span></td>
+    <td width="15%"><span class="main-span">Микроавтобус</span></td>
+  </tr>
+  <tr *ngFor="let i of infoPolirovka">
+    <td width="55%" align="left">
+      <p class="main-p">{{i.name}}</p>
+    </td>
+    <td width="15%">от {{i.priceL}} руб</td>
+    <td width="15%">от {{i.priceMJ}} руб</td>
+    <td width="15%">от {{i.priceM}} руб</td>
+  </tr>
+
+</table>

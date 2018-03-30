@@ -1,0 +1,97 @@
+<form *ngIf="times.length !== 0" id="contatc_form" #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label for="service">Услуга: </label>
+      <select class="form-control"
+              id="service"
+              required
+              [ngModel]="1"
+              name="service"
+      >
+        <option *ngFor="let s of service" [value]="s.name">
+          {{s.name}}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="form-group"
+         [ngClass]="{'has-error': phone.invalid && phone.touched}"
+    >
+      <label>Номер телефона: </label>
+      <input type="text"
+             id="phone"
+             class="form-control"
+             name="phone"
+             required
+             [ngModel]="'+375 '"
+             maxlength="14"
+             #phone="ngModel">
+      <span *ngIf="phone.invalid && phone.touched"
+      >Номер телефона не может быть пустым</span>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="form-group"
+         [ngClass]="{'has-error': phone.invalid && phone.touched}">
+      <label>Дата: </label>
+      <input type="date"
+             class="form-control"
+             id="date"
+             name="date"
+             required
+             #date="ngModel"
+             ngModel>
+      <span *ngIf="phone.invalid && phone.touched"
+      >Дата не может быть пустой</span>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label>Время: </label>
+      <select class="form-control"
+              name="time"
+              id="time"
+              required
+              [ngModel]="1"
+              >
+        <option *ngFor="let t of times" [value]="t.id">
+          {{t.time}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label>Имя: </label>
+      <input type="text"
+             class="form-control"
+             name="name"
+             id="name"
+             ngModel
+             placeholder="Имя"
+             required>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label>Комментарий: </label>
+      <textarea id="message"
+                class="form-control"
+                name="message"
+                rows="4"
+                placeholder="Message"
+                ngModel
+      ></textarea>
+    </div>
+    <button type="submit"
+            class="btn theme-btn g"
+            [disabled]="f.invalid"
+    >Отправить</button>
+  </div>
+</form>
+<div class="container-fluid" *ngIf="times.length === 0">
+  jjj
+</div>

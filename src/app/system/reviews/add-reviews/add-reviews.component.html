@@ -1,0 +1,66 @@
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 d fon">
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+    <div class="col-sm-6">
+      <div class="form-group"
+           [ngClass]="{'has-error': name.invalid && name.touched}">
+        <label class="control-label">Имя: </label>
+        <input type="text"
+               class="form-control"
+               id="name"
+               name="name"
+               placeholder="Имя"
+               required
+               ngModel
+               #name="ngModel">
+        <span
+          *ngIf="name.invalid && name.touched"
+          class="form-help-text"
+        >Имя не может быть пустым.</span>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group"
+           [ngClass]="{'has-error': phone.invalid && phone.touched}">
+        <label class="control-label">Номер телефона: </label>
+        <input type="text"
+               class="form-control"
+               name="phone"
+               id="phone"
+               placeholder="Номер телефона"
+               ngModel
+               #phone="ngModel"
+               required>
+        <span
+          *ngIf="phone.invalid && phone.touched"
+          class="form-help-text"
+        >Телефон не может быть пустым.</span>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="form-group"
+           [ngClass]="{'has-error': message.invalid && message.touched}"
+      >
+        <label class="control-label">Комментарий: </label>
+        <textarea id="message"
+                  type="text"
+                  class="form-control"
+                  name="message"
+                  rows="6"
+                  placeholder="Комментарий"
+                  required
+                  ngModel
+                  #message="ngModel"
+        ></textarea>
+        <span
+          *ngIf="message.invalid && message.touched"
+          class="form-help-text"
+        >Телефон не может быть пустым.</span>
+      </div>
+      <div id="contact_send_status"></div>
+      <button
+        type="submit"
+        class="btn theme-btn g"
+      >Отправить</button>
+    </div>
+  </form>
+</div>

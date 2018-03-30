@@ -1,0 +1,71 @@
+<div class="navbar navbar-inverse navbar-fixed-top c" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a [routerLink]="['/main']">
+        <img class="navbar-brand text-center" src="../assets/img/logo-site.png">
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active">
+          <a [routerLink]="['/main']">Главная</a>
+        </li>
+        <li class="dropdown" routerLinkActive="active">
+          <a class="dropdown-toggle" data-toggle="dropdown">Услуги </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a [routerLink]="['/services', 'moika']">Автомойка</a>
+            </li>
+            <li>
+              <a [routerLink]="['/services/polirovka']">Полировка</a>
+            </li>
+            <li>
+              <a [routerLink]="['/services/dry-cleaning']">Химчистка</a>
+            </li>
+            <li>
+              <a [routerLink]="['/services/shinomontazh']">Шиномонтаж</a>
+            </li>
+            <li>
+              <a [routerLink]="['/services/nanopokrytiye']">Нано-покрытие</a>
+            </li>
+            <li>
+              <a [routerLink]="['/services/additionally']">Дополнителые услуги</a>
+            </li>
+          </ul>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/online-record']">Бронирование</a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/portfolio']">Портфолио</a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/reviews']">Отзывы</a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/contact']">Контакты</a>
+        </li>
+      </ul>
+      <div class="text-right t">
+        <a href="tel:+375447556515">
+          <p>+375447556515</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="image-s">
+  <router-outlet></router-outlet>
+  <div class="mastfoot text-center">
+    <div class="inner">
+      <p>© Автомойка-шиномонтаж "МойПорт"</p>
+    </div>
+  </div>
+</div>
+

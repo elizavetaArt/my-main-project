@@ -1,0 +1,41 @@
+.inner {
+  padding: 18px;
+}
+.mastfoot {
+  color: #949494;
+  background: #000000;
+  position: relative;
+  width: 100%;
+}
+p {
+  margin: 5px 0 15px 0;
+}
+.row {
+  margin: 0 0 8px 0 ;
+}
+.c {
+  position: relative;
+}
+.image-s {
+  box-shadow: 0 0 700px 170px #000000 inset;
+}
+.t {
+  text-align: center;
+}
+.t p {
+  margin: 10px 0 10px 0;
+}
+.t a:not(.btn) {
+  color: #f6f6f6;
+  font-size: 20px;
+}
+.image-s {
+  background: url("../assets/img/1H.jpg") 50% 65% no-repeat;
+}
+@media (max-width: 1200px) {
+  .t {
+    display: none;
+  }
+}
+
+
