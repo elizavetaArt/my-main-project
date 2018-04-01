@@ -250,204 +250,170 @@
     {
       "time": "09.00",
       "status": "free",
-      "id": 3
+      "id": 1
     },
     {
       "time": "09.30",
       "status": "free",
-      "id": 4
+      "id": 2
     },
     {
       "time": "10.00",
       "status": "free",
-      "id": 5
+      "id": 1
     },
     {
       "time": "10.30",
       "status": "free",
-      "id": 6
+      "id": 2
     },
     {
       "time": "11.00",
       "status": "free",
-      "id": 7
+      "id": 1
     },
     {
       "time": "11.30",
       "status": "free",
-      "id": 8
+      "id": 2
     },
     {
       "time": "12.00",
       "status": "free",
-      "id": 9
+      "id": 1
     },
     {
       "time": "12.30",
       "status": "free",
-      "id": 10
+      "id": 2
     },
     {
       "time": "13.00",
       "status": "free",
-      "id": 11
+      "id": 1
     },
     {
       "time": "13.30",
       "status": "free",
-      "id": 12
+      "id": 2
     },
     {
       "time": "14.00",
       "status": "free",
-      "id": 13
+      "id": 1
     },
     {
       "time": "14.30",
       "status": "free",
-      "id": 14
+      "id": 2
     },
     {
       "time": "15.00",
       "status": "free",
-      "id": 15
+      "id": 1
     },
     {
       "time": "15.30",
       "status": "free",
-      "id": 16
+      "id": 2
     },
     {
       "time": "16.00",
       "status": "free",
-      "id": 17
+      "id": 1
     },
     {
       "time": "16.30",
       "status": "free",
-      "id": 18
+      "id": 2
     },
     {
       "time": "17.00",
       "status": "free",
-      "id": 19
+      "id": 1
     },
     {
       "time": "17.30",
       "status": "free",
-      "id": 20
+      "id": 2
     },
     {
       "time": "18.00",
       "status": "free",
-      "id": 21
+      "id": 1
     },
     {
       "time": "18.30",
       "status": "free",
-      "id": 22
+      "id": 2
     },
     {
       "time": "19.00",
       "status": "free",
-      "id": 23
+      "id": 1
     },
     {
       "time": "19.30",
       "status": "free",
-      "id": 24
+      "id": 2
     },
     {
       "time": "20.00",
       "status": "free",
-      "id": 25
+      "id": 1
     },
     {
       "time": "20.30",
       "status": "free",
-      "id": 26
+      "id": 2
     },
     {
       "time": "21.00",
       "status": "free",
-      "id": 27
+      "id": 1
     },
     {
       "time": "21.30",
       "status": "free",
-      "id": 28
+      "id": 2
     },
     {
       "time": "22.00",
       "status": "free",
-      "id": 29
+      "id": 1
     },
     {
       "time": "22.30",
       "status": "free",
-      "id": 30
+      "id": 2
     }
   ],
   "orders": [
     {
-      "services": "Мойка",
-      "phone": "+375 447556515",
-      "date": "2018-04-01",
+      "services": "Химчистка",
+      "phone": "+375 333333333",
+      "date": "2018-03-31",
       "time": {
         "time": "08.00",
         "status": "free",
         "id": 1
       },
-      "name": "Елизавета",
+      "name": "jj",
       "message": "",
       "id": 1
     },
     {
-      "services": "Химчистка",
-      "phone": "+375 296477642",
-      "date": "2018-04-03",
+      "services": "Мойка",
+      "phone": "+375 g",
+      "date": "2018-03-31",
       "time": {
-        "time": "10.00",
+        "time": "08.30",
         "status": "free",
-        "id": 5
+        "id": 2
       },
-      "name": "Артём",
+      "name": "g",
       "message": "",
       "id": 2
-    },
-    {
-      "services": "Полировка",
-      "phone": "+375 445768494",
-      "date": "2018-04-05",
-      "time": {
-        "time": "11.00",
-        "status": "free",
-        "id": 7
-      },
-      "name": "Екатерина",
-      "message": "",
-      "id": 3
-    },
-    {
-      "services": "Мойка",
-      "phone": "+375 447556515",
-      "date": "2018-03-10",
-      "time": {
-        "time": "14.00",
-        "status": "free",
-        "id": 13
-      },
-      "name": "Дарья",
-      "message": "",
-      "id": 4
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "email": "moiport2018@gmail.com",
-      "password": "123456789",
-      "name": "Администратор"
     }
   ]
 }

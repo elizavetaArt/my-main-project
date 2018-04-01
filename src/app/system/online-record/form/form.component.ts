@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {Time} from '../../../shared/models/time.model';
 import {NgForm} from '@angular/forms';
 import {Order} from '../../../shared/models/order.model';
