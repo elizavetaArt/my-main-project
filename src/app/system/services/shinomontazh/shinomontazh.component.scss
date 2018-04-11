@@ -3,8 +3,21 @@
   color: #ffffff;
   text-align: center;
 }
+.fon {
+  background: rgba(243, 243, 243, 0.18);
+  box-shadow: 0 0 80px rgba(255, 255, 255, 0.37);
+  text-shadow: #000000 0 0 30px;
+  color: #fefefe;
+}
 .d {
   padding: 0 0 16px 0;
+}
+.main-p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
 }
 .info-order {
   width: 98%;
@@ -16,4 +29,8 @@
 }
 .info-order tr td {
   padding: 15px 0;
+}
+.main-span {
+  font-size: 18px;
+  font-weight: bold;
 }
