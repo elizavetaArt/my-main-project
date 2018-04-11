@@ -23,7 +23,6 @@ export class MoikaComponent implements OnInit, OnDestroy {
     ).subscribe((data: [InfoMoika[]]) => {
       this.infoMoika = data[0];
       this.isLoaded = true;
-      console.log(data);
     });
   }
 
