@@ -25,9 +25,11 @@ import { FormNanopokrytiyeComponent } from './services/nanopokrytiye/form-nanopo
 import { FormAdditionallyComponent } from './services/additionally/form-additionally/form-additionally.component';
 import { EditReviewComponent } from './reviews/edit-review/edit-review.component';
 import { AddReviewsComponent } from './reviews/add-reviews/add-reviews.component';
-import {ReviewsService} from '../shared/services/reviews.service';
-import {TimeService} from '../shared/services/time.service';
-import {OrderService} from '../shared/services/order.service';
+import { ReviewsService } from '../shared/services/reviews.service';
+import { TimeService } from '../shared/services/time.service';
+import { OrderService } from '../shared/services/order.service';
+import { FormShinomontazhComponent } from './services/shinomontazh/form-shinomontazh/form-shinomontazh.component';
+import {ShinomontazhService} from '../shared/services/shinomontazh.service';
 
 @NgModule({
   imports: [
@@ -56,7 +58,8 @@ import {OrderService} from '../shared/services/order.service';
     FormNanopokrytiyeComponent,
     FormAdditionallyComponent,
     EditReviewComponent,
-    AddReviewsComponent
+    AddReviewsComponent,
+    FormShinomontazhComponent
   ],
   providers: [InfoMoikaService, ReviewsService, TimeService, OrderService]
 })
